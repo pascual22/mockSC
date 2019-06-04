@@ -3,6 +3,38 @@
 angular.module('mockupScApp').directive('menu', function () {
     return {
         templateUrl: 'views/directives/menu.html',
-        restrict: 'E'
+        restrict: 'E',
+        scope: {},
+        link: function postLink(scope) {
+
+            scope.mensaje = 'mensaje fallidos';
+            scope.menuItems = [
+                {
+                    nombre: 'Home',
+                    ref: 'inicio',
+                    icon: 'home'
+                },
+                {
+                    nombre: 'Messages',
+                    ref: 'mensajes',
+                    icon: 'envelope'
+                },
+                {
+                    nombre: 'WishList',
+                    ref: 'listadeseos',
+                    icon: 'star'
+                },
+                {
+                    nombre: 'Settings',
+                    ref: 'configuraciones',
+                    icon: 'cog'
+                },
+                {
+                    nombre: 'My Account',
+                    ref: 'micuenta',
+                    icon: 'user'
+                }
+            ];
+        }
     };
 });

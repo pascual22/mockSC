@@ -30,12 +30,14 @@ angular
         url: '/mensajes',
         templateUrl: 'views/mensajes.html'
       })
-
+      .state('listadeseos', {
+        url: '/listadeseos',
+        templateUrl: 'views/listadeseos.html'
+      })
       .state('configuraciones', {
         url: '/configuraciones',
         templateUrl: 'views/configuraciones.html'
       })
-
       .state('micuenta', {
         url: '/micuenta',
         templateUrl: 'views/micuenta.html'

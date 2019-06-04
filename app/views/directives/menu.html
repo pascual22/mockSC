@@ -1,7 +1,7 @@
 <div class="header">
     <div class="navbar navbar-default" role="navigation">
         <div class="container">
-            <div class="navbar-header">
+            <!-- <div class="navbar-header">
 
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#js-navbar-collapse">
@@ -12,15 +12,21 @@
                 </button>
 
                 <a class="navbar-brand" ui-sref="inicio">mockupSc</a>
-            </div>
+            </div> -->
 
             <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
-                <ul class="nav navbar-nav">
-                    <li class="active"><a ui-sref="inicio">Inicio</a></li>
-                    <li><a ui-sref="mensajes">Mensajes</a></li>
-                    <li><a ui-sref="configuraciones">Configuraciones</a></li>
-                    <li><a ui-sref="micuenta">Mi cuenta</a></li>
+                <ul class="nav navbar-nav menu" ng-repeat="men in menuItems">
+                    <li>
+                        <a ui-sref="{{men.ref}}" ui-sref-active="active">
+                            <div class="row">
+                                <span class="iconos glyphicon glyphicon-{{men.icon}}"></span>
+                            </div>
+                            <div class="row">
+                                {{men.nombre}}
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
