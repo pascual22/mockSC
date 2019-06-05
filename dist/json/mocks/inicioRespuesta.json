@@ -1,0 +1,37 @@
+[
+    {
+        "fecha": "2014-04-03T17:46:53.677",
+        "ciudadOrigen": "Houston, TX, 23424",
+        "ciudadDestino": "Atlanta, GA, 56446",
+        "valor": 300,
+        "cantidad": 1
+    },
+    {
+        "fecha": "2017-04-03T17:46:53.677",
+        "ciudadOrigen": "Washington, DC, 65656",
+        "ciudadDestino": "Atlanta, GA, 56446",
+        "valor": 100,
+        "cantidad": 1
+    },
+    {
+        "fecha": "2014-04-03T17:46:53.677",
+        "ciudadOrigen": "Houston, TX, 23424",
+        "ciudadDestino": "Miami, FL, 6565",
+        "valor": 250,
+        "cantidad": 1
+    },
+    {
+        "fecha": "2014-11-03T17:46:53.677",
+        "ciudadOrigen": "Houston, TX, 23424",
+        "ciudadDestino": "Atlanta, GA, 56446",
+        "valor": 300,
+        "cantidad": 1
+    },
+    {
+        "fecha": "2018-04-03T17:46:53.677",
+        "ciudadOrigen": "Houston, TX, 23424",
+        "ciudadDestino": "Atlanta, GA, 56446",
+        "valor": 400,
+        "cantidad": 2
+    }
+]

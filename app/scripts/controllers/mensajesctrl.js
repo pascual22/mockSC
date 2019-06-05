@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc function
- * @name mockupScApp.controller:MainCtrl
+ * @name mockupScApp.controller:MensajesCtrl
  * @description
- * # MainCtrl
+ * # MensajesCtrl
  * Controller of the mockupScApp
  */
 angular.module('mockupScApp')
@@ -12,6 +12,6 @@ angular.module('mockupScApp')
 
         var vm = $scope;
 
-        vm.mensaje = 'estamos en los mensajes';
+        vm.mensaje = 'Here you can see your messages';
 
     });

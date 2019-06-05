@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc function
- * @name mockupScApp.controller:MainCtrl
+ * @name mockupScApp.controller:MiCuentaCtrl
  * @description
- * # MainCtrl
+ * # MiCuentaCtrl
  * Controller of the mockupScApp
  */
 angular.module('mockupScApp')

@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc function
- * @name mockupScApp.controller:MainCtrl
+ * @name mockupScApp.controller:ListaDeseosCtrl
  * @description
- * # MainCtrl
+ * # ListaDeseosCtrl
  * Controller of the mockupScApp
  */
 angular.module('mockupScApp')
@@ -12,6 +12,6 @@ angular.module('mockupScApp')
 
         var vm = $scope;
 
-        vm.mensaje = 'Hola lo que deseo comprar';
+        vm.mensaje = 'I want this!!!';
 
     });

@@ -63,7 +63,49 @@
         <!-- seccion interna -->
         <div class="col-md-8">
 
-            {{mensaje}}
+            <div class="row">
+                <div class="col-md-4 col-md-offset-8">
+                    <div class="search">
+                        <input placeholder="Search">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" ng-repeat="info in informacion | orderBy:ordenar">
+                <div class="row elementos">
+                    <div class="col-md-1 elementos-icon">
+                        <label class="glyphicon glyphicon-ok-sign"></label>
+                    </div>
+                    <div class="col-md-11 elementos-info">
+                        <div class="col-md-2">
+                            <label class="formatear-fecha">{{info.fecha | date:"MM/dd/yyyy 'at' h:mma"}}</label>
+                        </div>
+                        <div class="col-md-1 vl2"></div>
+                        <div class="col-md-3">
+                            <div class="row">{{info.ciudadOrigen}}</div>
+                            <div class="row flecha-abajo"><label class="glyphicon glyphicon-chevron-down"></label></div>
+                            <div class="row">{{info.ciudadDestino}}</div>
+                        </div>
+                        <div class="col-md-1 vl2"></div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <label class="glyphicon glyphicon-plane info-costo-icon"></label>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="info-costo-icon">{{info.valor | currency : "$" : 2 }}</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="cantidad">{{info.cantidad}}</label>
+                                </div>
+                                <div class="col-md-1">
+                                    <label class="glyphicon glyphicon-option-vertical info-costo-icon"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

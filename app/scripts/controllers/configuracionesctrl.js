@@ -12,6 +12,6 @@ angular.module('mockupScApp')
 
         var vm = $scope;
 
-        vm.mensaje = 'configura tu cuenta';
+        vm.mensaje = ' ---- >>>> Settings';
 
     });

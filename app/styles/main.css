@@ -121,6 +121,15 @@ estilos generados
 .vl {
   border-left: 1px solid #252525;
   height: 500px;
+  width: .33333333% !important;
+}
+
+.vl2 {
+  border-left: 1px solid #b6b3b3ec;
+  height: 50px;
+  width: .33333333% !important;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
 /*boton on off*/
@@ -183,8 +192,6 @@ hr {
   width: 50%;
 }
 
-
-
 .search { 
   position: relative; 
   margin: 0 auto ;
@@ -205,6 +212,55 @@ input {
     width: 50%;
     padding: 5px;
     margin: 15px;
+}
+
+.elementos{
+  height: 100px;
+  margin: 5px 0 5px 0;
+}
+.elementos-icon{
+  font-size: 30px;
+  color: #EE8D38;
+  text-align: left;
+  margin-top: 20px;
+}
+.elementos-info{
+  background-color: #FFFFFF;
+  height: 75px;
+  -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+.elementos-info > div {
+  margin-top: 10px;
+  text-align: center;
+}
+.flecha-abajo{
+  font-size: 15px;
+  color: #EE8D38;
+  text-align: center;
+}
+.info-costo-icon{
+  font-size: 30px;
+  margin-top: 10px;
+  color: #777;
+}
+.cantidad{
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 20px;
+  padding-top: 3px;
+  height: 30px;
+  width: 30px;
+  background-color: #ED5356;
+  color: #FFFFFF;
+  -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.formatear-fecha{
+  color: #777;
+  margin-top: 10px;
 }
 
 
