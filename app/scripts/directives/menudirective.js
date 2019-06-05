@@ -7,7 +7,6 @@ angular.module('mockupScApp').directive('menu', function () {
         scope: {},
         link: function postLink(scope) {
 
-            scope.mensaje = 'mensaje fallidos';
             scope.menuItems = [
                 {
                     nombre: 'Home',

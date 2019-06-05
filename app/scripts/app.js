@@ -19,7 +19,7 @@ angular
     'ngTouch'
   ])
   .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/inicio');
 
     $stateProvider
       .state('inicio', {

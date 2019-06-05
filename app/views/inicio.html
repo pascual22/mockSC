@@ -1,8 +1,69 @@
 <div ng-controller="InicioCtrl">
 
+    <div class="row contenedor-interno">
+        <!-- filtros -->
+        <div class="col-md-3">
 
-    <h1>este es el inicio</h1>
+            <div class="row smart">
+                <div class="col-md-2 col-md-offset-2 smart-filtros">
+                    <label class="glyphicon glyphicon-tint"></label>
+                </div>
+                <div class="col-md-8">
+                    Smart filters
+                </div>
+            </div>
+            <hr>
+            <div class="row filtros">
+                <div class="col-md-5 col-md-offset-2">
+                    <label class="glyphicon glyphicon-credit-card"></label>
+                </div>
+                <div class="col-md-5">
+                    <btn-on-off modelo="onoff.ventas"></btn-on-off>
+                </div>
+            </div>
+            <div class="row filtros">
+                <div class="col-md-5 col-md-offset-2">
+                    <label class="glyphicon glyphicon-calendar"></label>
+                </div>
+                <div class="col-md-5">
+                    <btn-on-off modelo="onoff.calendario"></btn-on-off>
+                </div>
+            </div>
 
-    {{mensaje}}
+            <div class="row filtros">
+                <div class="col-md-5 col-md-offset-2">
+                    <label class="glyphicon glyphicon-heart-empty"></label>
+                </div>
+                <div class="col-md-5">
+                    <btn-on-off modelo="onoff.gustos"></btn-on-off>
+                </div>
+            </div>
 
+            <hr>
+
+            <div class="row centrado">
+                Status
+            </div>
+
+            <div class="row centrado">
+                <div class="search">
+                    <input placeholder="Search">
+                </div>
+            </div>
+
+            <div class="row centrado">
+                <button id="btnDelivered" class="btn btn-light">DELIVERED</button>
+            </div>
+
+
+        </div>
+        <!-- borde vertical -->
+        <div class="col-md-1 vl"></div>
+
+        <!-- seccion interna -->
+        <div class="col-md-8">
+
+            {{mensaje}}
+        </div>
+    </div>
 </div>

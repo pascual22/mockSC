@@ -63,7 +63,8 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 80%;
+    max-width: 90%;
+    background-color: #eeeeee;
   }
 
   /* Remove the padding we set earlier */
@@ -85,6 +86,15 @@ body {
 /* 
 estilos generados
 */
+.navbar-default {
+  background-color: #eeeeee;
+}
+.contenedor-interno{
+  background-color:  #eeeeee !important
+}
+.menu-contenedor{
+  background-color: #FFFFFF
+}
 .iconos{
   font-size: 20px;
   text-align: center;
@@ -98,8 +108,8 @@ estilos generados
   color: #d5dde2 !important;
 }
 .menu > li > a {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 65px;
+  padding-right: 65px;
 }
 .menu > li > a:hover{
   background: #417a9b !important;
@@ -108,6 +118,93 @@ estilos generados
 .menu{
   text-align: center;
 }
+.vl {
+  border-left: 1px solid #252525;
+  height: 500px;
+}
 
+/*boton on off*/
+.btn-switch {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+  background-color: #193948;
+  border-radius: 40px;
+}
+  
+.btn-switch-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 27px;
+    width: 27px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+
+.btn-switch--on {
+background-color: #80CDBE;
+}
+.btn-switch-circle--on {
+    left: auto;
+    right: 0;
+}
+
+.smart-filtros{
+  font-size: 20px;
+}
+.filtros{
+  font-size: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+hr {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0.1px;
+  width: 60%;
+}
+
+.centrado{
+  text-align: center;
+}
+
+#btnDelivered{
+  background-color: #FFFFFF;
+  width: 50%;
+}
+
+
+
+.search { 
+  position: relative; 
+  margin: 0 auto ;
+  text-align: center;
+}
+.search input { 
+  text-indent: 30px;
+  border: none
+}
+.search .fa-search { 
+  position: absolute;
+  top: 28px;
+  left: 65%;
+  font-size: 15px;
+}
+
+input {
+    width: 50%;
+    padding: 5px;
+    margin: 15px;
+}
 
 
